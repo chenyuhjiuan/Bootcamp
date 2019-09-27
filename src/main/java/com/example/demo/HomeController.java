@@ -47,5 +47,8 @@ public class HomeController {
     @RequestMapping("/basicweb")
     public String basicWeb(){return "basicweb";}
 
+    @RequestMapping("/hyperlink")
+    public String hyperLink(){return "hyperlink";}
+
 
 }
