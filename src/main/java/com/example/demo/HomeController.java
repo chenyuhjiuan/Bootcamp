@@ -20,5 +20,32 @@ public class HomeController {
     @RequestMapping("/gitsetup")
     public String gitsetUp(){return "gitsetup";}
 
+    @RequestMapping("usinggit")
+    public String usingGit(){return "usinggit";}
+
+    @RequestMapping("/repository")
+    public String repoSitory(){return "repository";}
+
+    @RequestMapping("/design")
+    public String design(){return "design";}
+
+    @RequestMapping("/structure")
+    public String structure(){return "structure";}
+
+    @RequestMapping("/core")
+    public String core(){return "core";}
+
+    @RequestMapping("firstjava")
+    public String firstjava(){return "firstjava";}
+
+    @RequestMapping("/array")
+    public String array(){return "array";}
+
+    @RequestMapping("/debug")
+    public String debug(){return "debug";}
+
+    @RequestMapping("/basicweb")
+    public String basicWeb(){return "basicweb";}
+
 
 }

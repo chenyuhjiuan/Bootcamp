@@ -22,8 +22,9 @@ body{
 }
 .pcss{
     margin-left: 300px;
-    font-size: 20px;
+    font-size: 22px;
     width: 1100px;
+    color: black;
 }
 .pcss1{
     font-family: 'Playfair Display', serif;
@@ -109,4 +110,49 @@ span{
     height: 80px;
     background: #a84909;
     border-radius: 50%;
+}
+/*section and aside for author.html*/
+section {
+    width: 645px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+
+
+
+.pcss1{
+    margin-left: 100px;
+    font-size: 24px;
+    width: 600px;
+}
+/*paragraph content for each entry page*/
+
+.pcss2{
+    margin-left: 300px;
+    font-size: 24px;
+    width: 900px;
+}
+
+
+aside {
+    width: 350px;
+    float: left;
+    padding-left: 25px;
+    margin-left: 25px;
+}
+
+/* the styles for the footer */
+
+footer {
+    clear: both;
+    padding-top: 1em;
+
+}
+footer p {
+    font-size: 80%;
+
+    margin-left: 25px;
+    padding-bottom: 1em;
 }
