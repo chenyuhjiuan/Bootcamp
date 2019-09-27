@@ -17,5 +17,8 @@ public class HomeController {
     @RequestMapping("/polymorphism")
     public String polymorphism(){return "polymorphism";}
 
+    @RequestMapping("/gitsetup")
+    public String gitsetUp(){return "gitsetup";}
+
 
 }

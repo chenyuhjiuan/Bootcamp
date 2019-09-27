@@ -1,29 +1,7 @@
-a{
-    font-size:40px;
-    color: red;
+body{
+    background: #e6e6ff;
 }
 
-.demo {
-    font-size: 100px;
-}
-
-.column2 {
-    font-size: 40px;
-}
-/*.h1background {
-    background-color:#ffeb99;
-}*/
-#veganpic{
-    color:red;
-}
-#onecolumn{
-    font-size: 26px;
-    color: red;
-}
-#onecolumnp{
-    font-size: 30px;
-    color:brown;
-}
 .container {
     margin-left: 300px;
     margin-top: 30px;
@@ -32,36 +10,103 @@ a{
     margin-left: 300px;
     margin-top: 30px;
 }
-.images{
+/*.images{
     margin-left: 300px;
     margin-top: 30px;
     height: 200px;
     width: 1100px;
-}
-#topdis{margin-top: 100px;}
-.ptext {
-    margin-left: 300px;
-    margin-top: 30px;
-    font-size: 26px;
-}
+}*/
+.nav-link{
+    font-size: 30px;
 
-h1{
-    color:blue;
-    font-family: 'Mansalva', cursive;
+}
+.pcss{
     margin-left: 300px;
+    font-size: 20px;
+    width: 1100px;
+}
+.pcss1{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+h1{
+    color:#990033;
+    font-family: 'Notable', sans-serif;
+    margin-left: 300px;
+}
+h2{
+    font-family: 'Playfair Display', serif;
 }
 
 li{
-    margin-right: 50px;
+    margin-right: 80px;
 }
 
 nav {
     margin-left: 300px;
-    margin-right: 250px;
-    margin-top: 20px;
+    margin-right: 450px;
+    margin-top: 50px;
     margin-bottom: 20px;
     height: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
-.Conmargin {
-    margin-left: 100px;
+span{
+    color:saddlebrown;
+}
+
+.row{
+    box-shadow:  0 0 7px 5px #4B4B4B;
+    margin: 15px auto;
+    padding: 0;
+    background-color: #FFFFB2;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/*footer with social media icons*/
+*{
+    margin:0px;
+    padding: 0px;
+    box-siaing: border-box;
+}
+.footer-main-div{
+    width: 100%;
+    height: auto;
+    /*margin: auto;*/
+    margin-bottom: 50px;
+    background: #272727;
+    padding: 30px 0px;
+
+}
+.footer-social-icons{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.footer-social-icons ul{
+    margin:0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-social-icons ul li{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    font-size: larger;
+    margin:0px 10px;
+    border-radius:100% ;
+    background:#ffcccc;
+}
+.footer-social-icons ul li a{
+    color:#272727;
+    font-size: 25px;
+}
+.footer-social-icons ul li a i{
+    line-height:50px;
+}
+.oval {
+    width: 160px;
+    height: 80px;
+    background: #a84909;
+    border-radius: 50%;
 }
